@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  text-align: center;
+}
+
+input, button {
+  padding: 8px;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+#results ul {
+  list-style: none;
+  padding: 0;
+}
+
+#results li {
+  margin: 8px 0;
+}
