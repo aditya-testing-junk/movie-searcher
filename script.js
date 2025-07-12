@@ -13,7 +13,18 @@ const sites = [
     name: "olamovies",
     searchUrl: (query) => `https://olamovies.cam/?s=${encodeURIComponent(query)}`,
     api: false
-  }
+  },
+  {
+  name: "filmyzilla",
+  searchUrl: (query) => `https://www.google.com/search?q=${encodeURIComponent(query)}+site:filmyzilla13.com`,
+  api: false
+},
+{
+  name: "Internet archive",
+  searchUrl: (query) => `https://www.google.com/search?q=${encodeURIComponent(query)}+site:archive.org`,
+  api: false
+}
+
   // Add more sites as needed
 
 ];
